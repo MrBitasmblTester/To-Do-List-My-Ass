@@ -1,0 +1,1 @@
+// todo-app/src/app/app.module.ts\nimport { HttpClientModule } from '@angular/common/http';\n@NgModule({ imports: [BrowserModule, HttpClientModule] }) export class AppModule {}
