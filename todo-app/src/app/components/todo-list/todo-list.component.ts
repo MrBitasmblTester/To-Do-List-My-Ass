@@ -1,0 +1,1 @@
+// todo-app/src/app/components/todo-list/todo-list.component.ts\n@Component({...})\nexport class ToDoListComponent implements OnInit { todos: ToDo[] = []; ngOnInit(){ /* load todos */ } }
