@@ -1,0 +1,2 @@
+// ToDoApi/Program.cs
+var builder = WebApplication.CreateBuilder(args);\nbuilder.Services.AddControllers();\nbuilder.Services.AddDbContext<ToDoContext>(opt => {});\nvar app = builder.Build();\napp.MapControllers();\napp.Run();
